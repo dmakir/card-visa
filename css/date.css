@@ -1,0 +1,15 @@
+.date{
+    position: absolute;
+    top: 510px;
+    left: 31%;
+}
+
+.labDate{
+    position: absolute;
+    top: 280px;
+    left: 58%;
+}
+
+p.date{
+    top: 540px;
+}

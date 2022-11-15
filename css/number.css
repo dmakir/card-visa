@@ -1,0 +1,28 @@
+.numb{
+    position: absolute;
+    top: 370px;
+    left: 31%;
+}
+.labNum, .labNum2{
+    position: absolute;
+    top: 210px;
+    left: 36%;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p.numb{
+    top: 400px;
+}
+
+.numb input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+ 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}
+

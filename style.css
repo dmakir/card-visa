@@ -1,0 +1,62 @@
+@import "css/number.css";
+@import "css/name.css";
+@import "css/date.css";
+@import "css/CVV.css";
+
+body{
+    position: relative;
+    background: rgb(191, 207, 202) !important;
+}
+
+.fon{
+    position: absolute;
+    height: 450px;
+    width: 630px;
+    top: 180px;
+    background-color: rgb(220, 228, 228);
+    left: 25%;
+    border-radius: 2%;
+}
+
+.card {
+    position: relative;
+    perspective: 500px;
+}
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+
+
+.btn{
+    position: absolute;
+    top: 585px;
+    left: 31%;
+}
+
+.back{
+    transform: rotateY(180deg);
+}
+
+.card:hover .text{
+    opacity: 0;
+}
+.card:hover .front{
+    transform: rotateY(180deg);
+    
+}
+.card:hover .back{
+    transform: rotateY(360deg);
+}
+
+
+
+

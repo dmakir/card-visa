@@ -1,0 +1,29 @@
+.cvv{
+    position: absolute;
+    top: 540px;
+    left: 50%;
+}
+
+.labCVV{
+    position: absolute;
+    top: 20px;
+    left: 55%;
+    
+}
+
+.cvv1{
+    position: absolute;
+    top: 510px;
+    left: 50%;
+}
+
+.cvv input[type="number"] {
+	-moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+}
+ 
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	display: none;
+}

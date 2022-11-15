@@ -1,0 +1,15 @@
+.name{
+    position: absolute;
+    top: 440px;
+    left: 31%;
+}
+
+.labName{
+    position: absolute;
+    top: 280px;
+    left: 36%;
+}
+
+p.name{
+    top: 470px;
+}
